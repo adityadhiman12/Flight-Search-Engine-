@@ -1,0 +1,56 @@
+.Item {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+.Item-image {
+  height: 128px;
+  border: 1px solid #ccc;
+  float: left;
+}
+
+.Item-price {
+  text-align: left;
+  font-size: 18px;
+  color: #555;
+}
+.Item-book {
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-size: 7px;
+  border: 2px solid #FFAA3F;
+  background-color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.Item-book:hover {
+  background-color: #FFDDB2;
+}
+.Item-book:active {
+  background-color: #ED8400;
+  color: #fff;
+  outline: none;
+}
+.Item-book:focus {
+  outline: none;
+}
+.Item-left {
+  flex: 1;
+}
+.Item-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Item-logo {
+  animation: Item-logo-spin infinite 20s linear;
+  height: 128px;
+}
+
+keyframes Item-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

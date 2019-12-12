@@ -1,0 +1,23 @@
+{
+  "name": "flight-search-engiine",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-tabs": "^0.8.2",
+    "moment": "^2.16.0",
+    "prop-types": "^15.5.8",
+    "rc-slider": "^7.0.1",
+    "react-datepicker": "^0.44.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

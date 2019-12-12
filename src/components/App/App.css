@@ -1,0 +1,24 @@
+.App {
+  text-align: left;
+  height: 1900px;
+}
+
+.App-header {
+  background-color: #222;
+  color: white;
+  display: flex;
+  height: 55px;
+  padding: 0 24px;
+  position: relative;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Item {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
