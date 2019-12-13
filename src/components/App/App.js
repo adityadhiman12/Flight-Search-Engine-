@@ -30,9 +30,7 @@ class App extends Component {
     this.handleEndDateChange = this.handleEndDateChange.bind(this);
     this.handleChangeSlider = this.handleChangeSlider.bind(this);
     this.filterByPrice = this.filterByPrice.bind(this);
-    
     this.findByMatchingProperties = this.findByMatchingProperties.bind(this);
-    
 
     moment.updateLocale("en", {
       calendar: {
@@ -99,8 +97,7 @@ class App extends Component {
     });
 
     const objToMatch = {
-      originCity: this.state.originCity,
-      destCity: this.state.destCity
+      originCity: this.state.originCity
     };
 
     let filteredData = this.findByMatchingProperties(items, objToMatch);
@@ -246,7 +243,6 @@ class App extends Component {
                 <CustSlider onChange={this.handleChangeSlider} />
               </div>
             </div>
-
           </div>
 
           <div className="two-thirds column">

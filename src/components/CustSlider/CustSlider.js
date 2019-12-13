@@ -1,3 +1,4 @@
+/* eslint-disable */
 require("rc-slider/assets/index.css");
 
 const React = require("react");
@@ -7,7 +8,7 @@ const Range = createSliderWithTooltip(Slider.Range);
 
 const Tooltip = require("rc-tooltip");
 const Handle = Slider.Handle;
-const style = { margin: 20 };
+const style = { margin: 15 };
 
 const handle = props => {
   const { value, dragging, index, ...restProps } = props;
