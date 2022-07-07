@@ -11,7 +11,7 @@
     "braces": "^3.0.2",
     "mime": "^2.4.6",
     "minimist": "^1.2.5",
-    "moment": "^2.16.0",
+    "moment": "^2.29.4",
     "open": "^7.1.0",
     "prop-types": "^15.5.8",
     "rc-slider": "^7.0.1",
